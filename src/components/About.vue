@@ -1,6 +1,6 @@
 <template>
     <section id="about">
-        <h1 class="secHeading display-5">Who am I?</h1>
+        <h1 class="secHeading">Who am I?</h1>
         <p id="about-content">
             Hi! My name is Dominic Law. I'm currently in my final year at Macquarie<br/>
             University studying a Bachelor of Science with a major in Computing and <br/>
@@ -38,10 +38,54 @@ export default {
 
 <style scoped>
 #about {
-  margin-top: 15rem;
+  margin-top: 20rem;
   background-color: #EDEDED;
   width: 100%;
   height: 800px;
   display: block;
 }
+
+/* Media query */
+@media (max-width: 575px) {
+  #about-content {
+    font-size: 10px;
+  }
+  #about {
+    height: 500px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #about-content {
+      font-size: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #about-content {
+    font-size: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #about-content {
+    font-size: 12px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #about-content {
+    font-size: 14px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  #about-content {
+    font-size: 16px;
+  }
+} 
 </style>

@@ -10,7 +10,7 @@
 <style scoped>
     /* Header + Animations */
     #header-content {
-    width:100%;
+    width: 100%;
     height: 100%;
     margin-top: 25%;
     font-size: 18px;
@@ -130,5 +130,51 @@
     background-position: 0% 0%;
     background-size: 100% 100%;
     transition: background-position .5s, background-size .3s ease-in 3s;
+    }
+
+/* Media query */
+    @media (max-width: 575px) {
+        #header-content {
+            font-size: 10px;
+            padding: 0 0vh;
+        }
+    }
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        #header-content {
+            font-size: 10px;
+            padding: 0 7.5vh 0 0;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        #header-content {
+            font-size: 10px;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        #header-content {
+            font-size: 14px;
+            padding: 0 20vh 0 0;
+        }
+    }
+
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        #header-content {
+            font-size: 16px;
+            padding: 0 20vh 0 0;
+        }
+    }
+
+    /* XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {
+        #header-content {
+            font-size: 20px;
+            padding: 0 0 0 20vh;
+        }
     }
 </style>

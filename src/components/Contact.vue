@@ -31,4 +31,48 @@ export default {
   text-align: center;
   fill: white;
 }
+
+/* Media query */
+@media (max-width: 575px) {
+    #contact-content {
+        font-size: 10px;
+    }
+    #contact {
+      height: 200px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #contact-content {
+        font-size: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #contact-content {
+        font-size: 10px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #contact-content {
+        font-size: 14px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #contact-content {
+        font-size: 16px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #contact-content {
+        font-size: 20px;
+    }
+}
 </style>
