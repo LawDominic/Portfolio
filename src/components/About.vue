@@ -1,45 +1,46 @@
 <template>
-    <section id="about">
-        <h1 class="secHeading">Who am I?</h1>
-        <p id="about-content">
-            Hi! My name is Dominic Law. I'm currently in my final year at Macquarie<br/>
-            University studying a Bachelor of Science with a major in Computing and <br/>
-            a Bachelor of Commerce with a major in Finance. Currently looking for<br/>
-            opportunities in the Software Development industry whether that is entry<br/>
-            level, internships or graduate roles.
-            <br/>
-            <br/>
-            Back in 2012, that was when my journey began, tinkering with websites<br/>
-            and getting my hands dirty with HTML and CSS. Almost a decade later,<br/>
-            I've expanded my skillset working with various languages for various<br/>
-            specialities, including:<br/><br/>
-            &#8226; Java<br/>
-            &#8226; Python<br/>
-            &#8226; JavaScript<br/>
-            &#8226; HTML<br/>
-            &#8226; CSS<br/>
-            &#8226; SQL<br/><br/>
-            
-            These are also the frameworks I have tinkered with: <br/><br/>
-            &#8226; React Native<br/>
-            &#8226; Expo<br/>
-            &#8226; Vue.js<br/>
-            &#8226; Bootstrap<br/>
-        </p>
-    </section>
+  <section id="about">
+    <h1 class="secHeading">Who am I?</h1>
+    <p id="about-content">
+      Hi! My name is Dominic Law. I'm currently in my final year at Macquarie<br />
+      University studying a Bachelor of Science with a major in Computing and
+      <br />
+      a Bachelor of Commerce with a major in Finance. Currently looking for<br />
+      opportunities in the Software Development industry whether that is
+      entry<br />
+      level, internships or graduate roles.
+      <br />
+      <br />
+      Back in 2012, that was when my journey began, tinkering with websites<br />
+      and getting my hands dirty with HTML and CSS. Almost a decade later,<br />
+      I've expanded my skillset working with various languages for various<br />
+      specialities, including:<br /><br />
+      &#8226; Java<br />
+      &#8226; Python<br />
+      &#8226; JavaScript<br />
+      &#8226; HTML<br />
+      &#8226; CSS<br />
+      &#8226; SQL<br /><br />
+
+      These are also the frameworks I have tinkered with: <br /><br />
+      &#8226; React Native<br />
+      &#8226; Expo<br />
+      &#8226; Vue.js<br />
+      &#8226; Bootstrap<br />
+    </p>
+  </section>
 </template>
 
 <script>
-
 export default {
-  name: 'About',
-}
+  name: "About",
+};
 </script>
 
 <style scoped>
 #about {
   margin-top: 20rem;
-  background-color: #EDEDED;
+  background-color: #ededed;
   width: 100%;
   height: 800px;
   display: block;
@@ -57,7 +58,7 @@ export default {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   #about-content {
-      font-size: 10px;
+    font-size: 10px;
   }
 }
 
@@ -87,5 +88,5 @@ export default {
   #about-content {
     font-size: 16px;
   }
-} 
+}
 </style>
