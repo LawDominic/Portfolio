@@ -55,6 +55,7 @@ export default {
     height: 500px;
   }
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   #about-content {
