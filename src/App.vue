@@ -101,7 +101,7 @@ export default {
 
 .secHeading {
   padding: 4rem;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 2rem;
   color: #651e3e;
   display: inline-block;
@@ -130,6 +130,7 @@ footer {
     font-size: 20px;
   }
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   #wrapper {
