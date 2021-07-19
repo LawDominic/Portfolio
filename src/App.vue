@@ -85,7 +85,7 @@ export default {
 
 /* Header */
 .banner {
-  background-image: url("/../PUBLIC/assets/header.JPG");
+  background-image: url("/../PUBLIC/img/header.JPG");
   background-size: cover;
   background-position: cover;
   height: 100vh;
