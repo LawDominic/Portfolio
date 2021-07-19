@@ -85,7 +85,7 @@ export default {
 
 /* Header */
 .banner {
-  background-image: url("/assets/header.33fd60dc.jpg");
+  background-image: url("/../PUBLIC/assets/header.JPG");
   background-size: cover;
   background-position: cover;
   height: 100vh;
@@ -96,7 +96,6 @@ export default {
   top: 0px;
   opacity: 90%;
   filter: brightness(20%);
-  z-index: -1;
 }
 
 .secHeading {
