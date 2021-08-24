@@ -1,6 +1,6 @@
 <template>
   <div id="wrapper">
-    <div class="banner" />
+    <img src="../assets/header.png"/>
 
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
@@ -85,7 +85,6 @@ export default {
 
 /* Header */
 .banner {
-  background-image: url("./img/header.jpg");
   background-size: cover;
   background-position: cover;
   height: 100vh;
